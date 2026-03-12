@@ -1,14 +1,10 @@
 const express = require("")
 const app = express.Router()
-app.use(exprss.json())
+app.use(express.json())
 //rotas
-app.get("/usuario", () => {
+app.get("/usuario", () => {})
 
-})
-
-app.get("/usuario/:id", () => {
-    
-})
+app.get("/usuario/:id", () => {})
 
 app.post("/usuario", () => {})
 
